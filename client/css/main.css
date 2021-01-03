@@ -1,0 +1,68 @@
+/*COMMON*/
+body {
+    background: var(--bg);
+    color: #000000;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "ZXSpectrum", serif;
+    line-height: 22px;
+}
+
+html, button, input, p {
+    font-size: 33px;
+}
+
+/*FORM ELEMENTS*/
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+}
+
+form > *:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+input, button, a.button {
+    border: 3px solid #000000;
+    min-height: 45px;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+input[type='submit'], button, a.button {
+    text-transform: uppercase;
+    background: #610084;
+    color: #ffffff;
+    font-size: 42px;
+}
+
+/*BASIC ELEMENTS*/
+div {
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.black, a.button.black {
+    color: #ffffff;
+    background: #000;
+}
+
+a.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

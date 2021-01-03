@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/chat.css">
     <link rel="stylesheet" href="/css/vars.css">
-    <title>Login Form</title>
+    <title>Registration Page</title>
 </head>
 <body>
 <main>
@@ -22,10 +22,15 @@
         </div>
         <div class="chat__content">
             <form action="#">
+                <input type="text" placeholder="Email" name="email">
                 <input type="text" placeholder="Login" name="login">
+                <input type="text" placeholder="Name" name="name">
+                <input type="text" placeholder="Surname" name="surname">
+                <input type="text" placeholder="Phone" name="phone">
                 <input type="password" placeholder="Password" name="password">
-                <input type="submit" value="Login">
-                <a class="black button" href="/register.html">Register</a>
+                <input type="password" placeholder="Repeat password" name="repeatPassword">
+                <input type="submit" value="Register">
+                <a class="black button" href="/index.html">Back to login</a>
             </form>
         </div>
     </div>

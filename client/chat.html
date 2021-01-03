@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/chat.css">
     <link rel="stylesheet" href="/css/vars.css">
-    <title>Login Form</title>
+    <title>Chat</title>
 </head>
 <body>
 <main>
@@ -20,13 +20,20 @@
                 <img src="/img/png/spectrumLogo.png" alt="Spectrum Logo">
             </div>
         </div>
-        <div class="chat__content">
-            <form action="#">
-                <input type="text" placeholder="Login" name="login">
-                <input type="password" placeholder="Password" name="password">
-                <input type="submit" value="Login">
-                <a class="black button" href="/register.html">Register</a>
-            </form>
+        <div class="chat__wrapper">
+            <div class="chat-left">
+                <div class="chat-left__search chat-search">
+                    <input type="text" placeholder="search...">
+                    <div class="chat-search__zoom"><img src="/img/png/zoomIcon.png" alt="Zoom Icon"></div>
+                </div>
+                <div class="chat-left__chats-list"></div>
+                <div class="chat-left__settings"></div>
+            </div>
+            <div class="chat-messages-window">
+                <div class="no-chat-selected">
+                    SELECT A CHAT TO SEND A MESSAGE
+                </div>
+            </div>
         </div>
     </div>
 </main>
