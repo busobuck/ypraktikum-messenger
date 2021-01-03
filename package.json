@@ -1,0 +1,19 @@
+{
+  "name": "ypraktikum-messenger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/server/server.js",
+  "scripts": {
+    "test": "cd server && yarn run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaebusobuck/ypraktikum-messenger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaebusobuck/ypraktikum-messenger/issues"
+  },
+  "homepage": "https://github.com/jaebusobuck/ypraktikum-messenger#readme"
+}

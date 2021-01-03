@@ -1,0 +1,4 @@
+.idea
+/server/yarn.lock
+/server/node_modules
+/yarn.lock
