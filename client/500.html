@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/chat.css">
     <link rel="stylesheet" href="/css/vars.css">
-    <title>Login Form</title>
+    <title>500 error</title>
+
+    <script>
+        window.isChatWindow = true
+    </script>
 </head>
 <body>
 <main>
@@ -20,20 +24,17 @@
                 <img src="/img/png/spectrumLogo.png" alt="Spectrum Logo">
             </div>
         </div>
-        <div class="chat__content">
-            <form action="#">
-                <input type="text" placeholder="Login" name="login">
-                <input type="password" placeholder="Password" name="password">
-                <input type="submit" value="Login">
-                <a class="black button" href="/register.html">Register</a>
-            </form>
+        <div class="chat__wrapper">
+            <div class="chat-messages-window chat-messages-window--inactive">
+                <div class="chat-messages-window__content">
+                    <h1 class="g-underline g-font-regular-weight">500</h1>
+                    <h3>Internal server error</h3>
+                    <a class="black button" href="/chatInactive.html">Back to chats</a>
+                </div>
+            </div>
         </div>
     </div>
 </main>
-<footer>
-    <p>© 1982, 1986, 1987 Amstrad Plc.<br>
-        Drive M: available.</p>
-</footer>
 </body>
 <script src="/js/index.js"></script>
 </html>

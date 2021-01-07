@@ -31,7 +31,7 @@ class ChatApp {
     }
 
     initForms() {
-        const formElements = [...document.getElementsByTagName('form')]
+        const formElements = [...document.forms]
 
         formElements.forEach((formElement) => {
             console.log('setting form event listener to:', formElement)

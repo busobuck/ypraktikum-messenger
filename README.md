@@ -10,6 +10,11 @@
 3) ["Активный" чат](https://ypraktikum-messenger.netlify.app/register.html)
 4) ["Неактивный" чат](https://ypraktikum-messenger.netlify.app/register.html)
 5) [Настройки](https://ypraktikum-messenger.netlify.app/settings.html)
+6) [404](https://ypraktikum-messenger.netlify.app/404.html)
+6) [500](https://ypraktikum-messenger.netlify.app/500.html)
 
 ## Пару слов для ревьювера
-...
+- Интерфейс сознательно был сделан в некоторых частях не очень удобным, для того чтобы соответствовать стилистике
+- На странице чата, в форме ответа не будет использоваться стандартные form или input, мне кажется что это неудобно
+- Все картинки подлежат обязательной пикселизации, кроме стандартных элементов дизайна, будет реализовано позже
+

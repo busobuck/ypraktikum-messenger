@@ -17,6 +17,11 @@ html, button, input, p {
     font-size: 33px;
 }
 
+h1 {
+    font-size: 144px;
+    line-height: initial;
+}
+
 /*FORM ELEMENTS*/
 form {
     display: flex;
@@ -89,10 +94,21 @@ main {
     align-items: center;
 }
 
-@media (max-height: 700px) {
+footer {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-height: 770px) {
     main {
         height: auto;
         padding: var(--standard-padding) 0;
+    }
+    footer {
+        position: relative;
+        bottom: initial;
     }
 }
 
@@ -112,4 +128,12 @@ a.button {
 /*MIXINS*/
 .m-shadow {
     box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+/*GLOBAL STYLES*/
+.g-underline {
+    text-decoration: underline;
+}
+.g-font-regular-weight {
+    font-weight: 400;
 }
